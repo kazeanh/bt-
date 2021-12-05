@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.container{
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+.add-task{
+  width: 50%;
+  align-items: center;
+  height: 70px;
+  display: grid;
+}
+
+.add-description{
+margin: 50px;
+display: grid;
+}
+.read-task-header{
+  width: 100%;
+  display: flex;
+}
+h3.header-number{
+ width: 30%;
+ 
+}
+h3.header-task{
+  width: 30%;
+}
+h3.header-description{
+  width: 30%;
+}
+h3.header-action{
+  width: 30%;
+}

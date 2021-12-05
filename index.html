@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Todo list</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Title todo-list -->
+      <h3>Todo List</h3>
+
+      <!-- Add item -->
+      <div class="container__add-task">
+        <div class="add-task">
+          <label>Task</label>
+          <input id="task" type="text" placeholder="Task..." />
+        </div>
+        <div class="add-description">
+          <label>Description</label>
+          <textarea id="description" placeholder="Description..."></textarea>
+          
+        </div>
+      </div>
+
+      <!-- Read item -->
+      <div class="container__read-task">
+        <!-- header -->
+        <div class="read-task-header">
+          <h3 class="header-number">S.no</h3>
+          <h3 class="header-task">Task</h3>
+          <h3 class="header-description">Description</h3>
+          <h3 class="header-action">Action</h3>
+        </div>
+
+        <!-- Detail task -->
+        <div class="read-task">
+          <h3 class="read-task-number">1</h3>
+          <h3 class="read-task-number">2</h3>
+          <h3 class="read-task-number">3</h3>
+          <div class="task-name"> 
+                     <p class="read-task-name">do not read</p>
+            <p class="read-task-name">i told you not to read </p>
+            <p class="read-task-name">you litlle</p>
+          </div>
+         <div class="task-description">
+          <p class="read-task-description">never mind 
+          </p>
+          <p class="read-task-description">there nothing left
+          </p>
+          <p class="read-task-description">What now?
+          </p>
+         </div>
+          
+          <div class="read-task-action">
+            <button>Delete</button>
+            <button>Update</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
